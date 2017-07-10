@@ -7,4 +7,16 @@
 
 # If you complete extensions, describe your extensions here!
 
+name = raw_input("Enter your name: ")
+
+age = int(raw_input("Enter you age: "))
+
+if name == "Ashlyn":
+    print "you're awesome"
+elif name == "Maggie":
+    print "You're awesome"
+else:
+    print "you're cool too"
+
+print name
 
